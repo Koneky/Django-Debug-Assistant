@@ -23,24 +23,35 @@ Django Debug Assistant — настольное GUI-приложение, кот
 
 ---
 
-## Технологии
+## Требования
 
 - Python 3.x
-- Tkinter
-- JSON
+- Установленный [Git](https://git-scm.com/downloads).  
+  Для корректной работы библиотеки `gitpython` необходимо, чтобы путь к исполняемому файлу Git был прописан в системной переменной PATH.  
+  По умолчанию для Windows это:
+
+  ```
+  C:\Program Files\Git\bin
+  ```
+
+  Если Git установлен в другое место, убедитесь, что путь добавлен в переменную окружения PATH.
 
 ---
 
 ## Установка
 
-1. Клонируйте репозиторий:
+1. Установите Git (если ещё не установлен):
+
+   [Скачать Git](https://git-scm.com/downloads)
+
+2. Клонируйте репозиторий:
 
    ```bash
    git clone https://github.com/Koneky/Django-Debug-Assistant.git
    cd Django-Debug-Assistant
    ```
 
-2. Рекомендуется создать и активировать виртуальное окружение:
+3. Рекомендуется создать и активировать виртуальное окружение:
 
    ```bash
    python -m venv venv
@@ -48,7 +59,7 @@ Django Debug Assistant — настольное GUI-приложение, кот
    venv\Scripts\activate     # Windows
    ```
 
-3. Установите зависимости из файла `requirements.txt`:
+4. Установите зависимости из файла `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt

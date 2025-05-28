@@ -3,8 +3,6 @@ import json
 from git import Repo, GitCommandError
 
 
-# os.environ['GIT_PYTHON_GIT_EXECUTABLE'] = r'C:\\Program Files\\Git\bin\\git.exe'
-
 REPO_DIR = './django_debug_assistant_repo'
 REPO_URL = 'https://github.com/Koneky/django-errors-db.git'
 ERRORS_JSON = 'errors.json'
