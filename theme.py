@@ -1,0 +1,11 @@
+DARK_BG = "#2e2e2e"
+DARK_FG = "white"
+DARK_ENTRY_BG = "#3a3a3a"
+DARK_SELECT_BG = "#555"
+TEXT_BG = "#1e1e1e"
+YELLOW = "yellow"
+GREEN = "lightgreen"
+RED = "red"
+BUTTON_BG = "#444"
+BUTTON_FG = "white"
+FONT = ("Consolas", 12)
